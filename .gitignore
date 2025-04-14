@@ -1,0 +1,57 @@
+### Java ###
+# Файлы компиляции
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Папки сборки
+target/
+build/
+out/
+bin/
+
+### IDE ###
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+# VS Code
+.vscode/
+.settings/
+.classpath
+.project
+
+### Maven ###
+# Игнорируем локальный репозиторий Maven (если есть)
+.m2/repository/
+
+### Node.js / Frontend ###
+# Если используется Node.js (например, для сборки фронтенда)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Файлы пакетных менеджеров
+package-lock.json
+yarn.lock
+
+### Spring Boot ###
+# Файлы конфигурации Spring (если есть)
+application.properties
+application-dev.properties
+*.yml
+
+# Windows
+Thumbs.db
